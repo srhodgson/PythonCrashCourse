@@ -34,3 +34,16 @@ guest_list.insert(2, 'sarah sarah')
 guest_list.append('billy lastname')
 
 print(guest_list)
+
+guest_list.pop()
+print(guest_list)
+guest_list.pop()
+print(guest_list)
+guest_list.pop()
+print(guest_list)
+guest_list.pop()
+print(guest_list)
+del guest_list[-1]
+print(guest_list)
+del guest_list[-1]
+print(guest_list)
